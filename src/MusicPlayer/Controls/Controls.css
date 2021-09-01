@@ -1,0 +1,39 @@
+.controlsMainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.controlsMainDiv>button{
+    border: none;
+    border-radius:50% ;
+}
+.skipIcon{
+    color: rgb(121, 25, 25);
+    font-size: 3rem !important;
+    cursor: pointer;
+}
+.skipIcon:hover{
+    color: rgb(214, 61, 61);
+}
+.playDiv{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8),
+    -4px -4px 10px rgba(255, 255, 255, 0.4),
+    inset -4px -4px 10px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    background-color: rgb(121, 25, 25);
+    border-radius: 50%;
+}
+.playDiv:hover{
+    background-color: white;
+    
+}
+.playIcon{
+    color: white;
+    cursor: pointer;
+    font-size: 3rem !important;
+}
+.playIcon:hover{
+    color:rgb(214, 61, 61); 
+}

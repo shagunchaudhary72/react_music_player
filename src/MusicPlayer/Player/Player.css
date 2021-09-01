@@ -1,0 +1,7 @@
+.playerMainDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.playerMainDiv:hover{
+    opacity: 0.8;
+}

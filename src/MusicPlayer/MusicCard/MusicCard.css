@@ -1,0 +1,15 @@
+.musiccardMainDiv{
+    background: linear-gradient(to bottom, rgb(126, 10, 10), grey);
+    border-radius: 10px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nextTrack{
+    font-size: 15px;
+    font-weight: bold;
+}
